@@ -33,5 +33,7 @@ public class PostResource {
 		text = URL.decoParam(text);
 		List<Post> list = service.findByTitle(text);
 		return ResponseEntity.ok().body(list);
+		//Esse método permite que um cliente faça uma requisição GET para buscar postagens com base em um título fornecido na query string. 
+		//O método processa o texto, faz uma chamada a um serviço que recupera as postagens correspondentes e retorna a lista dentro de uma resposta HTTP adequada.
 	}
 }
