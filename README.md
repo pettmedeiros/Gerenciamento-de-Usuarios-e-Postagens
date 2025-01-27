@@ -1,4 +1,4 @@
-# Workshop MongoDB
+# Gerenciamento de Usuários e Postagens com Spring Boot e MongoDB
 API de Gerenciamento de Usuários e Posts
 
 ## Visão Geral
